@@ -19,7 +19,7 @@ if "show_splash" not in st.session_state:
 logging.basicConfig(level=logging.INFO)
 
 # Gemini API setup
-os.environ['GOOGLE_API_KEY'] = 'AIzaSyBcd0uSGdTK7b7vv62O1mNcco_fjiD0Xvw'
+os.environ['GOOGLE_API_KEY'] = ''
 genai.configure(api_key=os.environ['GOOGLE_API_KEY'])
 
 # Function to query health coach
